@@ -4,10 +4,10 @@ module.exports = function(sequelize, DataTypes) {
     });
 
     Racer.associates = function(models) {
-        //Racer.hasOne(models.SponsorName)
-        //Racer.hasZeroOrOne(models.RacingTeam)
-        //Racer.hasOne(models.vehicles)
-        //Racer.hasOneOrMany(models.weapons)
-        //Racer.hasMany(models.upgrades)
+        Racer.hasOne(models.SponsorName);
+        Racer.hasOne(models.RacingTeam);
+        Racer.hasOne(models.Vehicles);
+        Racer.hasMany(models.Weapon);
+        Racer.hasMany(models.Upgrade);
     }
-}
+};

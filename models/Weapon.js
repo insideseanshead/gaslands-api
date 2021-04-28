@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
-    var Upgrade = sequelize.define('Upgrade', {
-        upgrade: DataTypes.VARCHAR,
+    var Weapon = sequelize.define('Weapon', {
+        Weapon: DataTypes.VARCHAR,
         range: DataTypes.VARCHAR,
         attackDice: DataTypes.VARCHAR,
         buildSlot: DataTypes.INT,
@@ -8,7 +8,8 @@ module.exports = function(sequelize, DataTypes) {
         mishkin: DataTypes.TINYINT(1)
     });
 
-    Upgrade.associates = function(models) {
-        
+    Weapon.associates = function(models) {
+        Weapon.hasOne(models.Racer)
+        Weapon.hasMany(models.SpecialRule)
     }
 }

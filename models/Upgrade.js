@@ -1,12 +1,13 @@
 module.exports = function(sequelize, DataTypes) {
-    var Upgrades = sequelize.define('Upgrades', {
+    var Upgrade = sequelize.define('Upgrade', {
         upgrade: DataTypes.VARCHAR,
         buildSlot: DataTypes.INT,
         cost: DataTypes.INT,
         mishkin: DataTypes.TINYINT(1)
     });
 
-    Upgrades.associates = function(models) {
-        
+    Upgrade.associates = function(models) {
+        Upgrade.hasOne(models.Racer);
+        Upgrade.hasMany(models.SpecialRule);
     }
 }
