@@ -4,6 +4,7 @@ module.exports = function(sequelize, DataTypes) {
     });
 
     RacingTeam.associates = function(models) {
-        
+        //RacingTeam.zeroOrMany(models.Racer)
+        //RacingTeam.hasOne(models.User)
     }
 }

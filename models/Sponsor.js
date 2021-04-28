@@ -4,6 +4,6 @@ module.exports = function(sequelize, DataTypes) {
     });
 
     SponsorName.associates = function(models) {
-        
+        //Sponsor.belongsTo(models.RacingTeam)
     }
 }
