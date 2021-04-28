@@ -12,4 +12,5 @@ module.exports = function(sequelize, DataTypes) {
         SpecialRule.hasOne(models.Upgrade);
         
     }
+    return SpecialRule;
 }

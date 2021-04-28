@@ -8,4 +8,5 @@ module.exports = function(sequelize, DataTypes) {
         SponsorName.hasMany(models.SpecialRule);
         SponsorName.hasMany(models.Racer);
     }
+    return SponsorName;
 };

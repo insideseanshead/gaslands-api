@@ -12,4 +12,5 @@ module.exports = function(sequelize, DataTypes) {
         Weapon.hasOne(models.Racer)
         Weapon.hasMany(models.SpecialRule)
     }
+    return Weapon;
 }

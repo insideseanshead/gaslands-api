@@ -10,4 +10,6 @@ module.exports = function(sequelize, DataTypes) {
         Racer.hasMany(models.Weapon);
         Racer.hasMany(models.Upgrade);
     }
+
+    return Racer;
 };

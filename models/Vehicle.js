@@ -14,4 +14,5 @@ module.exports = function(sequelize, DataTypes) {
         Vehicle.hasOne(models.Racer);
         Vehicle.hasMany(models.SpecialRule);
     }
+    return Vehicle;
 };

@@ -9,4 +9,5 @@ module.exports = function(sequelize, DataTypes) {
         RacingTeam.hasMany(models.Sponsor);
        
     }
+    return RacingTeam;
 };

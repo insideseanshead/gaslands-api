@@ -10,4 +10,5 @@ module.exports = function(sequelize, DataTypes) {
         Upgrade.hasOne(models.Racer);
         Upgrade.hasMany(models.SpecialRule);
     }
+    return Upgrade;
 }
