@@ -1,11 +1,11 @@
 module.exports = function(sequelize, DataTypes) {
     var Weapon = sequelize.define('Weapon', {
-        Weapon: DataTypes.VARCHAR,
-        range: DataTypes.VARCHAR,
-        attackDice: DataTypes.VARCHAR,
-        buildSlot: DataTypes.INT,
-        cost: DataTypes.INT,
-        mishkin: DataTypes.TINYINT(1)
+        Weapon: DataTypes.STRING,
+        range: DataTypes.STRING,
+        attackDice: DataTypes.STRING,
+        buildSlot: DataTypes.INTEGER,
+        cost: DataTypes.INTEGER,
+        mishkin: DataTypes.INTEGER
     });
 
     Weapon.associates = function(models) {

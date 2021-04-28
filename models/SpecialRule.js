@@ -1,7 +1,7 @@
 module.exports = function(sequelize, DataTypes) {
     var SpecialRule = sequelize.define('SpecialRule', {
-        rule: DataTypes.VARCHAR,
-        ammo: DataTypes.INT,
+        rule: DataTypes.STRING,
+        ammo: DataTypes.INTEGER,
         errata: DataTypes.TEXT
     });
 

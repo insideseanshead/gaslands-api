@@ -1,13 +1,13 @@
 module.exports = function(sequelize, DataTypes) {
     var Vehicle = sequelize.define('Vehicle', {
-        type: DataTypes.VARCHAR,
-        weight: DataTypes.VARCHAR,
-        hull: DataTypes.INT,
-        handling: DataTypes.INT,
-        maxGear: DataTypes.INT,
-        crew: DataTypes.INT,
-        buildSlots: DataTypes.INT,
-        cost: DataTypes.INT,
+        type: DataTypes.STRING,
+        weight: DataTypes.STRING,
+        hull: DataTypes.INTEGER,
+        handling: DataTypes.INTEGER,
+        maxGear: DataTypes.INTEGER,
+        crew: DataTypes.INTEGER,
+        buildSlots: DataTypes.INTEGER,
+        cost: DataTypes.INTEGER,
     });
 
     Vehicle.associates = function(models) {

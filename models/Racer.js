@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
     var Racer = sequelize.define('Racer', {
-        racerName: DataTypes.VARCHAR
+        racerName: DataTypes.STRING
     });
 
     Racer.associates = function(models) {

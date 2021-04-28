@@ -1,9 +1,9 @@
 module.exports = function(sequelize, DataTypes) {
     var Upgrade = sequelize.define('Upgrade', {
-        upgrade: DataTypes.VARCHAR,
-        buildSlot: DataTypes.INT,
-        cost: DataTypes.INT,
-        mishkin: DataTypes.TINYINT(1)
+        upgrade: DataTypes.STRING,
+        buildSlot: DataTypes.INTEGER,
+        cost: DataTypes.INTEGER,
+        mishkin: DataTypes.INTEGER
     });
 
     Upgrade.associates = function(models) {

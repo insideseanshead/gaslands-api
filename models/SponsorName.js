@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
     var SponsorName = sequelize.define('SponsorName', {
-        name: DataTypes.VARCHAR
+        name: DataTypes.STRING
     });
 
     SponsorName.associates = function(models) {
