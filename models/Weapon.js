@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
     var Weapon = sequelize.define('Weapon', {
-        Weapon: DataTypes.STRING,
+        weapon: DataTypes.STRING,
         range: DataTypes.STRING,
         attackDice: DataTypes.STRING,
         buildSlot: DataTypes.INTEGER,

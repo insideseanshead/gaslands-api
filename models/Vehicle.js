@@ -6,7 +6,7 @@ module.exports = function(sequelize, DataTypes) {
         handling: DataTypes.INTEGER,
         maxGear: DataTypes.INTEGER,
         crew: DataTypes.INTEGER,
-        buildSlots: DataTypes.INTEGER,
+        buildSlot: DataTypes.INTEGER,
         cost: DataTypes.INTEGER,
     });
 
