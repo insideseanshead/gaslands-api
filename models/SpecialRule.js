@@ -5,7 +5,7 @@ module.exports = function(sequelize, DataTypes) {
         errata: DataTypes.TEXT
     });
 
-    SpecialRule.associates = function(models) {
+    SpecialRule.associate = function(models) {
         SpecialRule.belongsTo(models.Vehicle);
         SpecialRule.belongsTo(models.SponsorName);
         SpecialRule.belongsTo(models.Weapon);

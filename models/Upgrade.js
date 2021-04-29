@@ -6,9 +6,9 @@ module.exports = function(sequelize, DataTypes) {
         mishkin: DataTypes.INTEGER
     });
 
-    Upgrade.associates = function(models) {
-        Upgrade.belongsTo(models.Racer);
+    Upgrade.associate = function(models) {
         Upgrade.hasMany(models.SpecialRule);
+        Upgrade.belongsTo(models.Vehicle);
     }
     return Upgrade;
 }
