@@ -3,11 +3,9 @@ module.exports = function(sequelize, DataTypes) {
         name: DataTypes.STRING
     });
 
-    RacingTeam.associates = function(models) {
-        RacingTeam.hasMany(models.Racer);
-        RacingTeam.belongsTo(models.User);
-        RacingTeam.hasMany(models.Sponsor);
-       
+    RacingTeam.associate = function(models) {
+       RacingTeam.hasMany(models.Racer)
+       RacingTeam.hasOne(models.SponsorName)
     }
     return RacingTeam;
 };

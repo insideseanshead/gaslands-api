@@ -10,7 +10,7 @@ module.exports = function(sequelize, DataTypes) {
         cost: DataTypes.INTEGER,
     });
 
-    Vehicle.associates = function(models) {
+    Vehicle.associate = function(models) {
         Vehicle.belongsTo(models.Racer);
         Vehicle.hasMany(models.SpecialRule);
     }

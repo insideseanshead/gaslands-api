@@ -3,10 +3,12 @@ module.exports = function(sequelize, DataTypes) {
         name: DataTypes.STRING
     });
 
-    SponsorName.associates = function(models) {
-        SponsorName.belongsTo(models.RacingTeam);
-        SponsorName.hasMany(models.SpecialRule);
-        SponsorName.hasMany(models.Racer);
+    SponsorName.associate = function(models) {
+        SponsorName.hasMany(models.Racer)
+        SponsorName.belongsTo(models.RacingTeam)
+        // SponsorName.belongsTo(models.RacingTeam);
+        // SponsorName.hasMany(models.SpecialRule);
+        // SponsorName.hasMany(models.Racer);
     }
     return SponsorName;
 };
