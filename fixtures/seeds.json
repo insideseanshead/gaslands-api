@@ -1,0 +1,797 @@
+[
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 1,
+            "type": "Drag Racer",
+            "weight": "Lightweight",
+            "hull": 4,
+            "handling": 4,
+            "maxGear": 6,
+            "crew": 1,
+            "buildSlot": 2,
+            "cost": 5
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 2,
+            "type": "Bike",
+            "weight": "Lightweight",
+            "hull": 4,
+            "handling": 5,
+            "maxGear": 6,
+            "crew": 1,
+            "buildSlot": 1,
+            "cost": 5
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 3,
+            "type": "Buggy",
+            "weight": "Lightweight",
+            "hull": 6,
+            "handling": 4,
+            "maxGear": 6,
+            "crew": 2,
+            "buildSlot": 2,
+            "cost": 6
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 4,
+            "type": "Bike with Sidecar",
+            "weight": "Lightweight",
+            "hull": 4,
+            "handling": 5,
+            "maxGear": 6,
+            "crew": 2,
+            "buildSlot": 2,
+            "cost": 8
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 5,
+            "type": "Ice-cream Truck",
+            "weight": "Middleweight",
+            "hull": 10,
+            "handling": 2,
+            "maxGear": 4,
+            "crew": 2,
+            "buildSlot": 2,
+            "cost": 8
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 6,
+            "type": "Car",
+            "weight": "Middleweight",
+            "hull": 10,
+            "handling": 3,
+            "maxGear": 5,
+            "crew": 2,
+            "buildSlot": 2,
+            "cost": 12
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 7,
+            "type": "Performance Car",
+            "weight": "Middleweight",
+            "hull": 8,
+            "handling": 4,
+            "maxGear": 6,
+            "crew": 1,
+            "buildSlot": 2,
+            "cost": 15
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 9,
+            "type": "Truck",
+            "weight": "Middleweight",
+            "hull": 12,
+            "handling": 2,
+            "maxGear": 4,
+            "crew": 3,
+            "buildSlot": 3,
+            "cost": 15
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 10,
+            "type": "Gyrocopter",
+            "weight": "4",
+            "hull": 4,
+            "handling": 4,
+            "maxGear": 6,
+            "crew": 1,
+            "buildSlot": 0,
+            "cost": 10
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 11,
+            "type": "Ambulance",
+            "weight": "Middleweight",
+            "hull": 12,
+            "handling": 2,
+            "maxGear": 5,
+            "crew": 3,
+            "buildSlot": 3,
+            "cost": 20
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 12,
+            "type": "Monster Truck",
+            "weight": "Heavyweight",
+            "hull": 10,
+            "handling": 3,
+            "maxGear": 4,
+            "crew": 2,
+            "buildSlot": 2,
+            "cost": 25
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 13,
+            "type": "Heavy Truck",
+            "weight": "Heavyweight",
+            "hull": 14,
+            "handling": 2,
+            "maxGear": 3,
+            "crew": 4,
+            "buildSlot": 5,
+            "cost": 25
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 14,
+            "type": "Bus",
+            "weight": "Heavyweight",
+            "hull": 16,
+            "handling": 2,
+            "maxGear": 3,
+            "crew": 8,
+            "buildSlot": 3,
+            "cost": 30
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 15,
+            "type": "Helicopter",
+            "weight": "Heavyweight",
+            "hull": 8,
+            "handling": 3,
+            "maxGear": 4,
+            "crew": 3,
+            "buildSlot": 4,
+            "cost": 30
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 16,
+            "type": "Tank",
+            "weight": "Heavyweight",
+            "hull": 20,
+            "handling": 4,
+            "maxGear": 3,
+            "crew": 3,
+            "buildSlot": 4,
+            "cost": 40
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 17,
+            "type": "War Rig",
+            "weight": "26",
+            "hull": 26,
+            "handling": 2,
+            "maxGear": 4,
+            "crew": 5,
+            "buildSlot": 5,
+            "cost": 40
+        }
+    },
+
+
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 1,
+            "upgrade": "Armor Plating",
+            "buildSlot": 1,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 2,
+            "upgrade": "Experimental Nuclear Engine",
+            "buildSlot": null,
+            "cost": 5,
+            "mishkin": 1
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 3,
+            "upgrade": "Experimental Teleporter",
+            "buildSlot": null,
+            "cost": 7,
+            "mishkin": 1
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 4,
+            "upgrade": "Exploding Ram",
+            "buildSlot": null,
+            "cost": 3,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 5,
+            "upgrade": "Extra Crewmember",
+            "buildSlot": null,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 6,
+            "upgrade": "Improvised Sludge Thrower",
+            "buildSlot": 1,
+            "cost": 2,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 7,
+            "upgrade": "Nitro Booster",
+            "buildSlot": null,
+            "cost": 6,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 8,
+            "upgrade": "Ram",
+            "buildSlot": 1,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 9,
+            "upgrade": "Roll Cage",
+            "buildSlot": 1,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 10,
+            "upgrade": "Tank Tracks",
+            "buildSlot": 1,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 11,
+            "upgrade": "Turret Mounting for Weapon",
+            "buildSlot": null,
+            "cost": null,
+            "mishkin": 0
+        }
+    },
+
+
+
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 1,
+            "weapon": "125mm Cannon",
+            "range": "Double",
+            "attackDice": "8D6",
+            "buildSlot": 3,
+            "cost": 6,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 2,
+            "weapon": "Arc Lightning Projector",
+            "range": "Double",
+            "attackDice": "6D6",
+            "buildSlot": 2,
+            "cost": 6,
+            "mishkin": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 3,
+            "weapon": "Bazooka",
+            "range": "Double",
+            "attackDice": "6D6",
+            "buildSlot": 2,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 4,
+            "weapon": "BFG",
+            "range": "Double",
+            "attackDice": "10D6",
+            "buildSlot": 3,
+            "cost": 1,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 5,
+            "weapon": "Blunderbuss",
+            "range": "Small burst",
+            "attackDice": "2D6",
+            "buildSlot": null,
+            "cost": 2,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 7,
+            "weapon": "Caltrop Dropper",
+            "range": "Dropped",
+            "attackDice": "2D6",
+            "buildSlot": 1,
+            "cost": 1,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 8,
+            "weapon": "Combat Laser",
+            "range": "Double",
+            "attackDice": "3D6",
+            "buildSlot": null,
+            "cost": null,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 9,
+            "weapon": "Death Ray",
+            "range": "Double",
+            "attackDice": "3D6",
+            "buildSlot": null,
+            "cost": null,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 10,
+            "weapon": "Flamethrower",
+            "range": "Large Burst",
+            "attackDice": "6D6",
+            "buildSlot": 2,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 11,
+            "weapon": "Gas Grenades",
+            "range": "Medium",
+            "attackDice": "1D6",
+            "buildSlot": null,
+            "cost": 1,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 12,
+            "weapon": "Glue Dropper",
+            "range": "Dropped",
+            "attackDice": "N/A",
+            "buildSlot": 1,
+            "cost": 1,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 13,
+            "weapon": "Grabber Arm",
+            "range": "Short",
+            "attackDice": "3D6",
+            "buildSlot": 1,
+            "cost": 6,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 14,
+            "weapon": "Grav Gun",
+            "range": "Double",
+            "attackDice": "3D6",
+            "buildSlot": 1,
+            "cost": 2,
+            "mishkin": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 15,
+            "weapon": "Grenades",
+            "range": "Medium",
+            "attackDice": "1D6",
+            "buildSlot": null,
+            "cost": 1,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 16,
+            "weapon": "Handgun",
+            "range": "Medium",
+            "attackDice": "1D6",
+            "buildSlot": null,
+            "cost": null,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 17,
+            "weapon": "Harpoon",
+            "range": "Double",
+            "attackDice": "5D6",
+            "buildSlot": 1,
+            "cost": 2,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 18,
+            "weapon": "Heavy Machine Gun",
+            "range": "Double",
+            "attackDice": "3D6",
+            "buildSlot": 1,
+            "cost": 3,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 19,
+            "weapon": "Kinetic Super Booster",
+            "range": "Double",
+            "attackDice": "6D6",
+            "buildSlot": 2,
+            "cost": 6,
+            "mishkin": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 20,
+            "weapon": "Machine Gun",
+            "range": "Double",
+            "attackDice": "2D6",
+            "buildSlot": 1,
+            "cost": 2,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 21,
+            "weapon": "Magnetic Jammer",
+            "range": "Double",
+            "attackDice": "",
+            "buildSlot": null,
+            "cost": 2,
+            "mishkin": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 22,
+            "weapon": "Magnum",
+            "range": "Double",
+            "attackDice": "1D6",
+            "buildSlot": null,
+            "cost": 3,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 23,
+            "weapon": "Mine Dropper",
+            "range": "Dropped",
+            "attackDice": "4D6",
+            "buildSlot": 1,
+            "cost": 1,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 24,
+            "weapon": "Minigun",
+            "range": "Double",
+            "attackDice": "4D6",
+            "buildSlot": 1,
+            "cost": 5,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 25,
+            "weapon": "Molotov Coctails",
+            "range": "Medium",
+            "attackDice": "1D6",
+            "buildSlot": null,
+            "cost": 1,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 26,
+            "weapon": "Mortar",
+            "range": "Double",
+            "attackDice": "4D6",
+            "buildSlot": 1,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 27,
+            "weapon": "Napalm Dropper",
+            "range": "Dropped",
+            "attackDice": "4D6",
+            "buildSlot": 1,
+            "cost": 1,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 28,
+            "weapon": "Oil Slick Dropper",
+            "range": "Dropped",
+            "attackDice": "",
+            "buildSlot": null,
+            "cost": 2,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 29,
+            "weapon": "RC Car Bombs",
+            "range": "Dropped",
+            "attackDice": "4D6",
+            "buildSlot": null,
+            "cost": 3,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 30,
+            "weapon": "Rockets",
+            "range": "Double",
+            "attackDice": "6D6",
+            "buildSlot": 2,
+            "cost": 5,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 31,
+            "weapon": "Sentry Gun",
+            "range": "Dropped",
+            "attackDice": "2D6",
+            "buildSlot": null,
+            "cost": 3,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 32,
+            "weapon": "Shotgun",
+            "range": "Long",
+            "attackDice": "*",
+            "buildSlot": null,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 33,
+            "weapon": "Smoke Dropper",
+            "range": "Dropped",
+            "attackDice": "",
+            "buildSlot": null,
+            "cost": 1,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 34,
+            "weapon": "Steel Nets",
+            "range": "Short",
+            "attackDice": "3D6",
+            "buildSlot": null,
+            "cost": 2,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 35,
+            "weapon": "Submachine Gun",
+            "range": "Medium",
+            "attackDice": "3D6",
+            "buildSlot": null,
+            "cost": 5,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 36,
+            "weapon": "Thumper",
+            "range": "Medium",
+            "attackDice": "",
+            "buildSlot": 2,
+            "cost": 4,
+            "mishkin": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 37,
+            "weapon": "Wall of Amplifiers",
+            "range": "Medium",
+            "attackDice": "",
+            "buildSlot": 3,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 38,
+            "weapon": "Wreck Lobber",
+            "range": "Double/Dropped",
+            "attackDice": "",
+            "buildSlot": 4,
+            "cost": 4,
+            "mishkin": 0
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 39,
+            "weapon": "Wrecking Ball",
+            "range": "Short",
+            "attackDice": "",
+            "buildSlot": 3,
+            "cost": 2,
+            "mishkin": 0
+        }
+    }
+]
