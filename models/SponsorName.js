@@ -4,11 +4,8 @@ module.exports = function(sequelize, DataTypes) {
     });
 
     SponsorName.associate = function(models) {
-        SponsorName.hasMany(models.Racer)
         SponsorName.belongsTo(models.RacingTeam)
-        // SponsorName.belongsTo(models.RacingTeam);
-        // SponsorName.hasMany(models.SpecialRule);
-        // SponsorName.hasMany(models.Racer);
+        
     }
     return SponsorName;
 };

@@ -9,8 +9,8 @@ module.exports = function(sequelize, DataTypes) {
     });
 
     Weapon.associate = function(models) {
-        Weapon.belongsTo(models.Racer)
         Weapon.hasMany(models.SpecialRule)
+        Weapon.belongsTo(models.Vehicle)
     }
     return Weapon;
 }

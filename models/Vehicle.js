@@ -13,6 +13,8 @@ module.exports = function(sequelize, DataTypes) {
     Vehicle.associate = function(models) {
         Vehicle.belongsTo(models.Racer);
         Vehicle.hasMany(models.SpecialRule);
+        Vehicle.hasMany(models.Weapon);
+        Vehicle.hasMany(models.Upgrade);
     }
     return Vehicle;
 };

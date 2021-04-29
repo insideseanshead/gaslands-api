@@ -5,8 +5,6 @@ module.exports = function(sequelize, DataTypes) {
 
     Racer.associate = function(models) {
         Racer.hasOne(models.Vehicle);
-        
-        Racer.belongsTo(models.SponsorName);
         Racer.belongsTo(models.RacingTeam);
     }
 
