@@ -11,7 +11,7 @@ module.exports = function(sequelize, DataTypes) {
     });
 
     Vehicle.associates = function(models) {
-        Vehicle.hasOne(models.Racer);
+        Vehicle.belongsTo(models.Racer);
         Vehicle.hasMany(models.SpecialRule);
     }
     return Vehicle;

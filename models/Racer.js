@@ -5,10 +5,11 @@ module.exports = function(sequelize, DataTypes) {
 
     Racer.associates = function(models) {
         Racer.hasOne(models.SponsorName);
-        Racer.hasOne(models.RacingTeam);
         Racer.hasOne(models.Vehicle);
         Racer.hasMany(models.Weapon);
         Racer.hasMany(models.Upgrade);
+
+        Racer.belongsTo(models.RacingTeam)
     }
 
     return Racer;

@@ -7,7 +7,7 @@ module.exports = function(sequelize, DataTypes) {
     });
 
     Upgrade.associates = function(models) {
-        Upgrade.hasOne(models.Racer);
+        Upgrade.belongsTo(models.Racer);
         Upgrade.hasMany(models.SpecialRule);
     }
     return Upgrade;
