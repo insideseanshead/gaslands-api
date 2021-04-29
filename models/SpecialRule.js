@@ -5,11 +5,11 @@ module.exports = function(sequelize, DataTypes) {
         errata: DataTypes.TEXT
     });
 
-    SpecialRule.associates = function(models) {
-        SpecialRule.hasOne(models.Vehicle);
-        SpecialRule.hasOne(models.SponsorName);
-        SpecialRule.hasOne(models.Weapon);
-        SpecialRule.hasOne(models.Upgrade);
+    SpecialRule.associate = function(models) {
+        SpecialRule.belongsTo(models.Vehicle);
+        SpecialRule.belongsTo(models.SponsorName);
+        SpecialRule.belongsTo(models.Weapon);
+        SpecialRule.belongsTo(models.Upgrade);
         
     }
     return SpecialRule;

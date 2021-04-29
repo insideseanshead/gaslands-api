@@ -8,9 +8,9 @@ module.exports = function(sequelize, DataTypes) {
         mishkin: DataTypes.INTEGER
     });
 
-    Weapon.associates = function(models) {
-        Weapon.hasOne(models.Racer)
+    Weapon.associate = function(models) {
         Weapon.hasMany(models.SpecialRule)
+        Weapon.belongsTo(models.Vehicle)
     }
     return Weapon;
 }
