@@ -1,25 +1,55 @@
 // Express Template 
 const express = require('express');
+const cookieParser = require('cookie-parser');
+const session = require('express-session');
 const morgan = require('morgan')
 const helmet = require("helmet");
+const cors = require('cors')
+const app = express();
+const Sequelize = require('sequelize');
+const expressSession = require('express-session');
+const SessionStore = require('express-session-sequelize')(expressSession.Store);
+
 require("dotenv").config();
 
-// Sets up the Express App
-// =============================================================
-var app = express();
-var PORT = process.env.PORT || 8080;
-const cors = require('cors')
-var allRoutes = require('./controllers');
+const PORT = process.env.PORT || 8080;
+const allRoutes = require('./controllers');
 
 // Requiring our models for syncing
-var db = require('./models');
+const db = require('./models');
 
-app.use(morgan("dev"))
-app.use(helmet());
+// Passport config
+// require('./config/passport')(passport)
+
+//Logging
+if (process.env.NODE_ENV === 'development') {
+    app.use(morgan('dev'))
+}
+//Saw helmet in a tutorial, not sure if we are going to need it
+// app.use(helmet());
+
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+// Sequelize Sessions Middleware
+const myDatabase = new Sequelize('database', 'username', 'password', {
+	host: 'localhost',
+	dialect: 'mysql',
+});
+
+const sequelizeSessionStore = new SessionStore({
+	db: myDatabase,
+});
+
+app.use(cookieParser());
+app.use(expressSession({
+	secret: 'keep it secret, keep it safe.',
+	store: sequelizeSessionStore,
+	resave: false,
+	saveUninitialized: false,
+}));
 
 
 //PRODUCTION CORS
