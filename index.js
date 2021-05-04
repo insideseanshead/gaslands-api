@@ -1,16 +1,21 @@
 // Express Template 
-var express = require('express');
-// require("dotenv").config();
+const express = require('express');
+const morgan = require('morgan')
+const helmet = require("helmet");
+require("dotenv").config();
 
 // Sets up the Express App
 // =============================================================
 var app = express();
 var PORT = process.env.PORT || 8080;
-// const cors = require('cors')
+const cors = require('cors')
 var allRoutes = require('./controllers');
 
 // Requiring our models for syncing
 var db = require('./models');
+
+app.use(morgan("dev"))
+app.use(helmet());
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -23,7 +28,7 @@ app.use(express.json());
 // }))
 
 // DEV CORS
-// app.use(cors())
+app.use(cors())
 
 app.use('/', allRoutes);
 
