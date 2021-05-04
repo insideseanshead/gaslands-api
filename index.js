@@ -1,14 +1,12 @@
 // Express Template 
 const express = require('express');
-const cookieParser = require('cookie-parser');
-const session = require('express-session');
 const morgan = require('morgan')
-const helmet = require("helmet");
 const cors = require('cors')
 const app = express();
 const Sequelize = require('sequelize');
-const expressSession = require('express-session');
-const SessionStore = require('express-session-sequelize')(expressSession.Store);
+// const bodyParser = require('body-parser');
+// const session = require('express-session');
+
 
 require("dotenv").config();
 
@@ -25,37 +23,26 @@ const db = require('./models');
 if (process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'))
 }
-//Saw helmet in a tutorial, not sure if we are going to need it
-// app.use(helmet());
-
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Sequelize Sessions Middleware
-const myDatabase = new Sequelize('database', 'username', 'password', {
-	host: 'localhost',
-	dialect: 'mysql',
-});
 
-const sequelizeSessionStore = new SessionStore({
-	db: myDatabase,
-});
-
-app.use(cookieParser());
-app.use(expressSession({
-	secret: 'keep it secret, keep it safe.',
-	store: sequelizeSessionStore,
-	resave: false,
-	saveUninitialized: false,
-}));
+// initialize an instance of Sequelize
+const sequelize = new Sequelize({
+    database: "gaslands",
+    username: "root",
+    password: process.env.PASSWORD,
+    dialect: "mysql",
+  });
 
 
 //PRODUCTION CORS
 // app.use(cors({
 //     origin:["https://fish-tank-frontend.herokuapp.com"]
 // }))
+
 
 // DEV CORS
 app.use(cors())

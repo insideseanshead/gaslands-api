@@ -18,5 +18,6 @@
     "peacock.color": "lightblue",
     "cSpell.words": [
         "mishkin"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }
