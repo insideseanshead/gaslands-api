@@ -7,7 +7,7 @@ var express = require('express');
 var app = express();
 var PORT = process.env.PORT || 8080;
 // const cors = require('cors')
-// var allRoutes = require('./controllers');
+var allRoutes = require('./controllers');
 
 // Requiring our models for syncing
 var db = require('./models');
@@ -25,7 +25,7 @@ app.use(express.json());
 // DEV CORS
 // app.use(cors())
 
-// app.use('/',allRoutes);
+app.use('/', allRoutes);
 
 //turn to false to NOT rebuild models 
 db.sequelize.sync({ force: true }).then(function() {
