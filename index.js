@@ -1,20 +1,41 @@
 // Express Template 
-var express = require('express');
-// require("dotenv").config();
+const express = require('express');
+const morgan = require('morgan')
+const cors = require('cors')
+const app = express();
+const Sequelize = require('sequelize');
+// const bodyParser = require('body-parser');
+// const session = require('express-session');
 
-// Sets up the Express App
-// =============================================================
-var app = express();
-var PORT = process.env.PORT || 8080;
-// const cors = require('cors')
-// var allRoutes = require('./controllers');
+
+require("dotenv").config();
+
+const PORT = process.env.PORT || 8080;
+const allRoutes = require('./controllers');
 
 // Requiring our models for syncing
-var db = require('./models');
+const db = require('./models');
+
+// Passport config
+// require('./config/passport')(passport)
+
+//Logging
+if (process.env.NODE_ENV === 'development') {
+    app.use(morgan('dev'))
+}
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+
+// initialize an instance of Sequelize
+const sequelize = new Sequelize({
+    database: "gaslands",
+    username: "root",
+    password: process.env.PASSWORD,
+    dialect: "mysql",
+  });
 
 
 //PRODUCTION CORS
@@ -22,10 +43,11 @@ app.use(express.json());
 //     origin:["https://fish-tank-frontend.herokuapp.com"]
 // }))
 
-// DEV CORS
-// app.use(cors())
 
-// app.use('/',allRoutes);
+// DEV CORS
+app.use(cors())
+
+app.use('/', allRoutes);
 
 //turn to false to NOT rebuild models 
 db.sequelize.sync({ force: true }).then(function() {

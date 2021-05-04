@@ -6,6 +6,7 @@ module.exports = function(sequelize, DataTypes) {
     RacingTeam.associate = function(models) {
        RacingTeam.hasMany(models.Racer)
        RacingTeam.hasOne(models.SponsorName)
+       RacingTeam.hasMany(models.User)
     }
     return RacingTeam;
 };
