@@ -7,14 +7,12 @@ module.exports = function(sequelize, DataTypes) {
         maxGear: DataTypes.INTEGER,
         crew: DataTypes.INTEGER,
         buildSlot: DataTypes.INTEGER,
+        specialRules: DataTypes.STRING,
         cost: DataTypes.INTEGER,
     });
 
     Vehicle.associate = function(models) {
-        Vehicle.belongsTo(models.Racer);
-        Vehicle.hasMany(models.SpecialRule);
-        Vehicle.hasMany(models.Weapon);
-        Vehicle.hasMany(models.Upgrade);
+       Vehicle.hasMany(models.Racer)
     }
     return Vehicle;
 };

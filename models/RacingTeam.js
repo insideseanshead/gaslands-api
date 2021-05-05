@@ -1,12 +1,15 @@
+const { HasMany } = require("sequelize/types");
+
 module.exports = function(sequelize, DataTypes) {
     var RacingTeam = sequelize.define('RacingTeam', {
-        name: DataTypes.STRING
+        name: DataTypes.STRING,
+        // Store TeamName
+        team: DataTypes.STRING
     });
 
     RacingTeam.associate = function(models) {
        RacingTeam.hasMany(models.Racer)
-       RacingTeam.hasOne(models.SponsorName)
-       RacingTeam.hasMany(models.User)
+       RacingTeam.belongsTo(models.TeamName)
     }
     return RacingTeam;
 };
