@@ -3,13 +3,14 @@
         "model": "Vehicle",
         "data": {
             "id": 1,
-            "type": "Drag Racer",
+            "vehicleType": "Drag Racer",
             "weight": "Lightweight",
             "hull": 4,
             "handling": 4,
             "maxGear": 6,
             "crew": 1,
-            "buildSlot": 2,
+            "buildSlots": 2,
+            "specialRules": "Jet Engine",
             "cost": 5
         }
     },
@@ -17,13 +18,14 @@
         "model": "Vehicle",
         "data": {
             "id": 2,
-            "type": "Bike",
+            "vehicleType": "Bike",
             "weight": "Lightweight",
             "hull": 4,
             "handling": 5,
             "maxGear": 6,
             "crew": 1,
-            "buildSlot": 1,
+            "buildSlots": 1,
+            "specialRules": "Full Throttle, Pivot",
             "cost": 5
         }
     },
@@ -31,13 +33,14 @@
         "model": "Vehicle",
         "data": {
             "id": 3,
-            "type": "Buggy",
+            "vehicleType": "Buggy",
             "weight": "Lightweight",
             "hull": 6,
             "handling": 4,
             "maxGear": 6,
             "crew": 2,
-            "buildSlot": 2,
+            "buildSlots": 2,
+            "specialRules": "Roll Cage",
             "cost": 6
         }
     },
@@ -45,13 +48,14 @@
         "model": "Vehicle",
         "data": {
             "id": 4,
-            "type": "Bike with Sidecar",
+            "vehicleType": "Bike with Sidecar",
             "weight": "Lightweight",
             "hull": 4,
             "handling": 5,
             "maxGear": 6,
             "crew": 2,
-            "buildSlot": 2,
+            "buildSlots": 2,
+            "specialRules": "Full Throttle, Pivot",
             "cost": 8
         }
     },
@@ -59,13 +63,14 @@
         "model": "Vehicle",
         "data": {
             "id": 5,
-            "type": "Ice-cream Truck",
+            "vehicleType": "Ice-cream Truck",
             "weight": "Middleweight",
             "hull": 10,
             "handling": 2,
             "maxGear": 4,
             "crew": 2,
-            "buildSlot": 2,
+            "buildSlots": 2,
+            "specialRules": "Infuriating Jingle",
             "cost": 8
         }
     },
@@ -73,13 +78,14 @@
         "model": "Vehicle",
         "data": {
             "id": 6,
-            "type": "Car",
+            "vehicleType": "Car",
             "weight": "Middleweight",
             "hull": 10,
             "handling": 3,
             "maxGear": 5,
             "crew": 2,
-            "buildSlot": 2,
+            "buildSlots": 2,
+            "specialRules": "",
             "cost": 12
         }
     },
@@ -87,13 +93,14 @@
         "model": "Vehicle",
         "data": {
             "id": 7,
-            "type": "Performance Car",
+            "vehicleType": "Performance Car",
             "weight": "Middleweight",
             "hull": 8,
             "handling": 4,
             "maxGear": 6,
             "crew": 1,
-            "buildSlot": 2,
+            "buildSlots": 2,
+            "specialRules": "Slip away.",
             "cost": 15
         }
     },
@@ -101,13 +108,14 @@
         "model": "Vehicle",
         "data": {
             "id": 9,
-            "type": "Truck",
+            "vehicleType": "Truck",
             "weight": "Middleweight",
             "hull": 12,
             "handling": 2,
             "maxGear": 4,
             "crew": 3,
-            "buildSlot": 3,
+            "buildSlots": 3,
+            "specialRules": "",
             "cost": 15
         }
     },
@@ -115,13 +123,14 @@
         "model": "Vehicle",
         "data": {
             "id": 10,
-            "type": "Gyrocopter",
+            "vehicleType": "Gyrocopter",
             "weight": "4",
             "hull": 4,
             "handling": 4,
             "maxGear": 6,
             "crew": 1,
-            "buildSlot": 0,
+            "buildSlots": 0,
+            "specialRules": "Airwolf, Airborne",
             "cost": 10
         }
     },
@@ -129,13 +138,14 @@
         "model": "Vehicle",
         "data": {
             "id": 11,
-            "type": "Ambulance",
+            "vehicleType": "Ambulance",
             "weight": "Middleweight",
             "hull": 12,
             "handling": 2,
             "maxGear": 5,
             "crew": 3,
-            "buildSlot": 3,
+            "buildSlots": 3,
+            "specialRules": "Uppers, Downers",
             "cost": 20
         }
     },
@@ -143,13 +153,14 @@
         "model": "Vehicle",
         "data": {
             "id": 12,
-            "type": "Monster Truck",
+            "vehicleType": "Monster Truck",
             "weight": "Heavyweight",
             "hull": 10,
             "handling": 3,
             "maxGear": 4,
             "crew": 2,
-            "buildSlot": 2,
+            "buildSlots": 2,
+            "specialRules": "All Terrain, Up and Over",
             "cost": 25
         }
     },
@@ -157,13 +168,14 @@
         "model": "Vehicle",
         "data": {
             "id": 13,
-            "type": "Heavy Truck",
+            "vehicleType": "Heavy Truck",
             "weight": "Heavyweight",
             "hull": 14,
             "handling": 2,
             "maxGear": 3,
             "crew": 4,
-            "buildSlot": 5,
+            "buildSlots": 5,
+            "specialRules": "",
             "cost": 25
         }
     },
@@ -171,13 +183,14 @@
         "model": "Vehicle",
         "data": {
             "id": 14,
-            "type": "Bus",
+            "vehicleType": "Bus",
             "weight": "Heavyweight",
             "hull": 16,
             "handling": 2,
             "maxGear": 3,
             "crew": 8,
-            "buildSlot": 3,
+            "buildSlots": 3,
+            "specialRules": "",
             "cost": 30
         }
     },
@@ -185,13 +198,14 @@
         "model": "Vehicle",
         "data": {
             "id": 15,
-            "type": "Helicopter",
+            "vehicleType": "Helicopter",
             "weight": "Heavyweight",
             "hull": 8,
             "handling": 3,
             "maxGear": 4,
             "crew": 3,
-            "buildSlot": 4,
+            "buildSlots": 4,
+            "specialRules": "Airwolf, Arirborne, Restricted",
             "cost": 30
         }
     },
@@ -199,13 +213,14 @@
         "model": "Vehicle",
         "data": {
             "id": 16,
-            "type": "Tank",
+            "vehicleType": "Tank",
             "weight": "Heavyweight",
             "hull": 20,
             "handling": 4,
             "maxGear": 3,
             "crew": 3,
-            "buildSlot": 4,
+            "buildSlots": 4,
+            "specialRules": "Pivot, Up and Over, All Terrain, Turret, Restricted",
             "cost": 40
         }
     },
@@ -213,24 +228,24 @@
         "model": "Vehicle",
         "data": {
             "id": 17,
-            "type": "War Rig",
+            "vehicleType": "War Rig",
             "weight": "26",
             "hull": 26,
             "handling": 2,
             "maxGear": 4,
             "crew": 5,
-            "buildSlot": 5,
+            "buildSlots": 5,
+            "specialRules": "See War Rig Rules",
             "cost": 40
         }
     },
-
-
     {
         "model": "Upgrade",
         "data": {
             "id": 1,
             "upgrade": "Armor Plating",
-            "buildSlot": 1,
+            "specialRules": "+2 Hull",
+            "buildSlots": 1,
             "cost": 4,
             "mishkin": 0
         }
@@ -240,7 +255,8 @@
         "data": {
             "id": 2,
             "upgrade": "Experimental Nuclear Engine",
-            "buildSlot": null,
+            "specialRules": "Electrical, See special rules.",
+            "buildSlots": null,
             "cost": 5,
             "mishkin": 1
         }
@@ -250,7 +266,8 @@
         "data": {
             "id": 3,
             "upgrade": "Experimental Teleporter",
-            "buildSlot": null,
+            "specialRules": "Electrical, See special rules.",
+            "buildSlots": null,
             "cost": 7,
             "mishkin": 1
         }
@@ -260,7 +277,8 @@
         "data": {
             "id": 4,
             "upgrade": "Exploding Ram",
-            "buildSlot": null,
+            "specialRules": "Ammo 1, See special rules.",
+            "buildSlots": null,
             "cost": 3,
             "mishkin": 0
         }
@@ -270,7 +288,8 @@
         "data": {
             "id": 5,
             "upgrade": "Extra Crewmember",
-            "buildSlot": null,
+            "specialRules": "+1 Crew, up to a maximum of twice the vehicle's starting Crew value.",
+            "buildSlots": null,
             "cost": 4,
             "mishkin": 0
         }
@@ -280,7 +299,8 @@
         "data": {
             "id": 6,
             "upgrade": "Improvised Sludge Thrower",
-            "buildSlot": 1,
+            "specialRules": "See special rules.",
+            "buildSlots": 1,
             "cost": 2,
             "mishkin": 0
         }
@@ -290,7 +310,8 @@
         "data": {
             "id": 7,
             "upgrade": "Nitro Booster",
-            "buildSlot": null,
+            "specialRules": "Ammo 1, See special rules.",
+            "buildSlots": null,
             "cost": 6,
             "mishkin": 0
         }
@@ -300,7 +321,8 @@
         "data": {
             "id": 8,
             "upgrade": "Ram",
-            "buildSlot": 1,
+            "specialRules": "See special rules.",
+            "buildSlots": 1,
             "cost": 4,
             "mishkin": 0
         }
@@ -310,7 +332,8 @@
         "data": {
             "id": 9,
             "upgrade": "Roll Cage",
-            "buildSlot": 1,
+            "specialRules": "See special rules.",
+            "buildSlots": 1,
             "cost": 4,
             "mishkin": 0
         }
@@ -320,7 +343,8 @@
         "data": {
             "id": 10,
             "upgrade": "Tank Tracks",
-            "buildSlot": 1,
+            "specialRules": "-1 Max Gear, +1 Handling. See Special rules.",
+            "buildSlots": 1,
             "cost": 4,
             "mishkin": 0
         }
@@ -330,22 +354,21 @@
         "data": {
             "id": 11,
             "upgrade": "Turret Mounting for Weapon",
-            "buildSlot": null,
+            "specialRules": "Weapon gains 360-degree arc of fire.",
+            "buildSlots": null,
             "cost": null,
             "mishkin": 0
         }
     },
-
-
-
     {
         "model": "Weapon",
         "data": {
             "id": 1,
-            "weapon": "125mm Cannon",
+            "weapon_name": "125mm Cannon",
             "range": "Double",
-            "attackDice": "8D6",
-            "buildSlot": 3,
+            "attack_die": "8D6",
+            "specialRules": "Ammo3, Blast, See special rules.",
+            "buildSlots": 3,
             "cost": 6,
             "mishkin": 0
         }
@@ -354,10 +377,11 @@
         "model": "Weapon",
         "data": {
             "id": 2,
-            "weapon": "Arc Lightning Projector",
+            "weapon_name": "Arc Lightning Projector",
             "range": "Double",
-            "attackDice": "6D6",
-            "buildSlot": 2,
+            "attack_die": "6D6",
+            "specialRules": "Ammo 1, Electrical, See special rules.",
+            "buildSlots": 2,
             "cost": 6,
             "mishkin": 1
         }
@@ -366,10 +390,11 @@
         "model": "Weapon",
         "data": {
             "id": 3,
-            "weapon": "Bazooka",
+            "weapon_name": "Bazooka",
             "range": "Double",
-            "attackDice": "6D6",
-            "buildSlot": 2,
+            "attack_die": "6D6",
+            "specialRules": "Ammo 3, Blast.",
+            "buildSlots": 2,
             "cost": 4,
             "mishkin": 0
         }
@@ -378,10 +403,11 @@
         "model": "Weapon",
         "data": {
             "id": 4,
-            "weapon": "BFG",
+            "weapon_name": "BFG",
             "range": "Double",
-            "attackDice": "10D6",
-            "buildSlot": 3,
+            "attack_die": "10D6",
+            "specialRules": "Ammo 1, See special rules.",
+            "buildSlots": 3,
             "cost": 1,
             "mishkin": 0
         }
@@ -390,10 +416,11 @@
         "model": "Weapon",
         "data": {
             "id": 5,
-            "weapon": "Blunderbuss",
+            "weapon_name": "Blunderbuss",
             "range": "Small burst",
-            "attackDice": "2D6",
-            "buildSlot": null,
+            "attack_die": "2D6",
+            "specialRules": "Crew Fired, Splash.",
+            "buildSlots": null,
             "cost": 2,
             "mishkin": 0
         }
@@ -402,10 +429,11 @@
         "model": "Weapon",
         "data": {
             "id": 7,
-            "weapon": "Caltrop Dropper",
+            "weapon_name": "Caltrop Dropper",
             "range": "Dropped",
-            "attackDice": "2D6",
-            "buildSlot": 1,
+            "attack_die": "2D6",
+            "specialRules": "Ammo 3, Small Burst, See special rules.",
+            "buildSlots": 1,
             "cost": 1,
             "mishkin": 0
         }
@@ -414,10 +442,11 @@
         "model": "Weapon",
         "data": {
             "id": 8,
-            "weapon": "Combat Laser",
+            "weapon_name": "Combat Laser",
             "range": "Double",
-            "attackDice": "3D6",
-            "buildSlot": null,
+            "attack_die": "3D6",
+            "specialRules": "Splash, See special rules.",
+            "buildSlots": null,
             "cost": null,
             "mishkin": 0
         }
@@ -426,10 +455,11 @@
         "model": "Weapon",
         "data": {
             "id": 9,
-            "weapon": "Death Ray",
+            "weapon_name": "Death Ray",
             "range": "Double",
-            "attackDice": "3D6",
-            "buildSlot": null,
+            "attack_die": "3D6",
+            "specialRules": "Ammo 1, Electrical, See special rules.",
+            "buildSlots": null,
             "cost": null,
             "mishkin": 0
         }
@@ -438,10 +468,11 @@
         "model": "Weapon",
         "data": {
             "id": 10,
-            "weapon": "Flamethrower",
+            "weapon_name": "Flamethrower",
             "range": "Large Burst",
-            "attackDice": "6D6",
-            "buildSlot": 2,
+            "attack_die": "6D6",
+            "specialRules": "Ammo 3, Splash, Fire, Indirect.",
+            "buildSlots": 2,
             "cost": 4,
             "mishkin": 0
         }
@@ -450,10 +481,11 @@
         "model": "Weapon",
         "data": {
             "id": 11,
-            "weapon": "Gas Grenades",
+            "weapon_name": "Gas Grenades",
             "range": "Medium",
-            "attackDice": "1D6",
-            "buildSlot": null,
+            "attack_die": "1D6",
+            "specialRules": "Ammo 5, Crew Fired, Indirectm Blitz, See special rules.",
+            "buildSlots": null,
             "cost": 1,
             "mishkin": 0
         }
@@ -462,10 +494,11 @@
         "model": "Weapon",
         "data": {
             "id": 12,
-            "weapon": "Glue Dropper",
+            "weapon_name": "Glue Dropper",
             "range": "Dropped",
-            "attackDice": "N/A",
-            "buildSlot": 1,
+            "attack_die": "N/A",
+            "specialRules": "Ammo 1. See special rules.",
+            "buildSlots": 1,
             "cost": 1,
             "mishkin": 0
         }
@@ -474,10 +507,11 @@
         "model": "Weapon",
         "data": {
             "id": 13,
-            "weapon": "Grabber Arm",
+            "weapon_name": "Grabber Arm",
             "range": "Short",
-            "attackDice": "3D6",
-            "buildSlot": 1,
+            "attack_die": "3D6",
+            "specialRules": "See special rules.",
+            "buildSlots": 1,
             "cost": 6,
             "mishkin": 0
         }
@@ -486,10 +520,11 @@
         "model": "Weapon",
         "data": {
             "id": 14,
-            "weapon": "Grav Gun",
+            "weapon_name": "Grav Gun",
             "range": "Double",
-            "attackDice": "3D6",
-            "buildSlot": 1,
+            "attack_die": "3D6",
+            "specialRules": "Ammo 1, Electrical, See special rules.",
+            "buildSlots": 1,
             "cost": 2,
             "mishkin": 1
         }
@@ -498,10 +533,11 @@
         "model": "Weapon",
         "data": {
             "id": 15,
-            "weapon": "Grenades",
+            "weapon_name": "Grenades",
             "range": "Medium",
-            "attackDice": "1D6",
-            "buildSlot": null,
+            "attack_die": "1D6",
+            "specialRules": "Ammo 5, Crew fired, Blast, Indirect, Blitz.",
+            "buildSlots": null,
             "cost": 1,
             "mishkin": 0
         }
@@ -510,10 +546,11 @@
         "model": "Weapon",
         "data": {
             "id": 16,
-            "weapon": "Handgun",
+            "weapon_name": "Handgun",
             "range": "Medium",
-            "attackDice": "1D6",
-            "buildSlot": null,
+            "attack_die": "1D6",
+            "specialRules": "Crew fired.",
+            "buildSlots": null,
             "cost": null,
             "mishkin": 0
         }
@@ -522,10 +559,11 @@
         "model": "Weapon",
         "data": {
             "id": 17,
-            "weapon": "Harpoon",
+            "weapon_name": "Harpoon",
             "range": "Double",
-            "attackDice": "5D6",
-            "buildSlot": 1,
+            "attack_die": "5D6",
+            "specialRules": "See special rules.",
+            "buildSlots": 1,
             "cost": 2,
             "mishkin": 0
         }
@@ -534,10 +572,11 @@
         "model": "Weapon",
         "data": {
             "id": 18,
-            "weapon": "Heavy Machine Gun",
+            "weapon_name": "Heavy Machine Gun",
             "range": "Double",
-            "attackDice": "3D6",
-            "buildSlot": 1,
+            "attack_die": "3D6",
+            "specialRules": "",
+            "buildSlots": 1,
             "cost": 3,
             "mishkin": 0
         }
@@ -546,10 +585,11 @@
         "model": "Weapon",
         "data": {
             "id": 19,
-            "weapon": "Kinetic Super Booster",
+            "weapon_name": "Kinetic Super Booster",
             "range": "Double",
-            "attackDice": "6D6",
-            "buildSlot": 2,
+            "attack_die": "6D6",
+            "specialRules": "Ammo 1, Electrical, See special rules.",
+            "buildSlots": 2,
             "cost": 6,
             "mishkin": 1
         }
@@ -558,10 +598,11 @@
         "model": "Weapon",
         "data": {
             "id": 20,
-            "weapon": "Machine Gun",
+            "weapon_name": "Machine Gun",
             "range": "Double",
-            "attackDice": "2D6",
-            "buildSlot": 1,
+            "attack_die": "2D6",
+            "specialRules": "",
+            "buildSlots": 1,
             "cost": 2,
             "mishkin": 0
         }
@@ -570,10 +611,11 @@
         "model": "Weapon",
         "data": {
             "id": 21,
-            "weapon": "Magnetic Jammer",
+            "weapon_name": "Magnetic Jammer",
             "range": "Double",
-            "attackDice": "",
-            "buildSlot": null,
+            "attack_die": "",
+            "specialRules": "Electrical, See special rules.",
+            "buildSlots": null,
             "cost": 2,
             "mishkin": 1
         }
@@ -582,10 +624,11 @@
         "model": "Weapon",
         "data": {
             "id": 22,
-            "weapon": "Magnum",
+            "weapon_name": "Magnum",
             "range": "Double",
-            "attackDice": "1D6",
-            "buildSlot": null,
+            "attack_die": "1D6",
+            "specialRules": "Crew fired, Blast.",
+            "buildSlots": null,
             "cost": 3,
             "mishkin": 0
         }
@@ -594,10 +637,11 @@
         "model": "Weapon",
         "data": {
             "id": 23,
-            "weapon": "Mine Dropper",
+            "weapon_name": "Mine Dropper",
             "range": "Dropped",
-            "attackDice": "4D6",
-            "buildSlot": 1,
+            "attack_die": "4D6",
+            "specialRules": "Ammo 3 Small Burst, See special rules.",
+            "buildSlots": 1,
             "cost": 1,
             "mishkin": 0
         }
@@ -606,10 +650,11 @@
         "model": "Weapon",
         "data": {
             "id": 24,
-            "weapon": "Minigun",
+            "weapon_name": "Minigun",
             "range": "Double",
-            "attackDice": "4D6",
-            "buildSlot": 1,
+            "attack_die": "4D6",
+            "specialRules": "",
+            "buildSlots": 1,
             "cost": 5,
             "mishkin": 0
         }
@@ -618,10 +663,11 @@
         "model": "Weapon",
         "data": {
             "id": 25,
-            "weapon": "Molotov Coctails",
+            "weapon_name": "Molotov Coctails",
             "range": "Medium",
-            "attackDice": "1D6",
-            "buildSlot": null,
+            "attack_die": "1D6",
+            "specialRules": "Ammo 5, Crew Fired, Fire, Indirect, Blitz.",
+            "buildSlots": null,
             "cost": 1,
             "mishkin": 0
         }
@@ -630,10 +676,11 @@
         "model": "Weapon",
         "data": {
             "id": 26,
-            "weapon": "Mortar",
+            "weapon_name": "Mortar",
             "range": "Double",
-            "attackDice": "4D6",
-            "buildSlot": 1,
+            "attack_die": "4D6",
+            "specialRules": "Ammo 3, Indirect.",
+            "buildSlots": 1,
             "cost": 4,
             "mishkin": 0
         }
@@ -642,10 +689,11 @@
         "model": "Weapon",
         "data": {
             "id": 27,
-            "weapon": "Napalm Dropper",
+            "weapon_name": "Napalm Dropper",
             "range": "Dropped",
-            "attackDice": "4D6",
-            "buildSlot": 1,
+            "attack_die": "4D6",
+            "specialRules": "Ammo 3, Small Burst, Fire, See special rules.",
+            "buildSlots": 1,
             "cost": 1,
             "mishkin": 0
         }
@@ -654,10 +702,11 @@
         "model": "Weapon",
         "data": {
             "id": 28,
-            "weapon": "Oil Slick Dropper",
+            "weapon_name": "Oil Slick Dropper",
             "range": "Dropped",
-            "attackDice": "",
-            "buildSlot": null,
+            "attack_die": "",
+            "specialRules": "Ammo 3 See special rules.",
+            "buildSlots": null,
             "cost": 2,
             "mishkin": 0
         }
@@ -666,10 +715,11 @@
         "model": "Weapon",
         "data": {
             "id": 29,
-            "weapon": "RC Car Bombs",
+            "weapon_name": "RC Car Bombs",
             "range": "Dropped",
-            "attackDice": "4D6",
-            "buildSlot": null,
+            "attack_die": "4D6",
+            "specialRules": "Ammo 3, See special rules.",
+            "buildSlots": null,
             "cost": 3,
             "mishkin": 0
         }
@@ -678,10 +728,11 @@
         "model": "Weapon",
         "data": {
             "id": 30,
-            "weapon": "Rockets",
+            "weapon_name": "Rockets",
             "range": "Double",
-            "attackDice": "6D6",
-            "buildSlot": 2,
+            "attack_die": "6D6",
+            "specialRules": "Ammo 3.",
+            "buildSlots": 2,
             "cost": 5,
             "mishkin": 0
         }
@@ -690,10 +741,11 @@
         "model": "Weapon",
         "data": {
             "id": 31,
-            "weapon": "Sentry Gun",
+            "weapon_name": "Sentry Gun",
             "range": "Dropped",
-            "attackDice": "2D6",
-            "buildSlot": null,
+            "attack_die": "2D6",
+            "specialRules": "Ammo 3. See special rules.",
+            "buildSlots": null,
             "cost": 3,
             "mishkin": 0
         }
@@ -702,10 +754,11 @@
         "model": "Weapon",
         "data": {
             "id": 32,
-            "weapon": "Shotgun",
+            "weapon_name": "Shotgun",
             "range": "Long",
-            "attackDice": "*",
-            "buildSlot": null,
+            "attack_die": "*",
+            "specialRules": "Ammo 3, See special rules.",
+            "buildSlots": null,
             "cost": 4,
             "mishkin": 0
         }
@@ -714,10 +767,11 @@
         "model": "Weapon",
         "data": {
             "id": 33,
-            "weapon": "Smoke Dropper",
+            "weapon_name": "Smoke Dropper",
             "range": "Dropped",
-            "attackDice": "",
-            "buildSlot": null,
+            "attack_die": "",
+            "specialRules": "Ammo 3, See special rules.",
+            "buildSlots": null,
             "cost": 1,
             "mishkin": 0
         }
@@ -726,10 +780,11 @@
         "model": "Weapon",
         "data": {
             "id": 34,
-            "weapon": "Steel Nets",
+            "weapon_name": "Steel Nets",
             "range": "Short",
-            "attackDice": "3D6",
-            "buildSlot": null,
+            "attack_die": "3D6",
+            "specialRules": "Crew fired.",
+            "buildSlots": null,
             "cost": 2,
             "mishkin": 0
         }
@@ -738,10 +793,11 @@
         "model": "Weapon",
         "data": {
             "id": 35,
-            "weapon": "Submachine Gun",
+            "weapon_name": "Submachine Gun",
             "range": "Medium",
-            "attackDice": "3D6",
-            "buildSlot": null,
+            "attack_die": "3D6",
+            "specialRules": "Crew Fired.",
+            "buildSlots": null,
             "cost": 5,
             "mishkin": 0
         }
@@ -750,10 +806,11 @@
         "model": "Weapon",
         "data": {
             "id": 36,
-            "weapon": "Thumper",
+            "weapon_name": "Thumper",
             "range": "Medium",
-            "attackDice": "",
-            "buildSlot": 2,
+            "attack_die": "",
+            "specialRules": "Ammo 1, Electrical, Indirect, 360-degree, See special rules.",
+            "buildSlots": 2,
             "cost": 4,
             "mishkin": 1
         }
@@ -762,10 +819,11 @@
         "model": "Weapon",
         "data": {
             "id": 37,
-            "weapon": "Wall of Amplifiers",
+            "weapon_name": "Wall of Amplifiers",
             "range": "Medium",
-            "attackDice": "",
-            "buildSlot": 3,
+            "attack_die": "",
+            "specialRules": "360-degree Arc of Fire, See special rules.",
+            "buildSlots": 3,
             "cost": 4,
             "mishkin": 0
         }
@@ -774,10 +832,11 @@
         "model": "Weapon",
         "data": {
             "id": 38,
-            "weapon": "Wreck Lobber",
+            "weapon_name": "Wreck Lobber",
             "range": "Double/Dropped",
-            "attackDice": "",
-            "buildSlot": 4,
+            "attack_die": "",
+            "specialRules": "Ammo 3, See special rules.",
+            "buildSlots": 4,
             "cost": 4,
             "mishkin": 0
         }
@@ -786,12 +845,104 @@
         "model": "Weapon",
         "data": {
             "id": 39,
-            "weapon": "Wrecking Ball",
+            "weapon_name": "Wrecking Ball",
             "range": "Short",
-            "attackDice": "",
-            "buildSlot": 3,
+            "attack_die": "",
+            "specialRules": "See speacial rules.",
+            "buildSlots": 3,
             "cost": 2,
             "mishkin": 0
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 1,
+            "sponsor": "Rutheford"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 2,
+            "sponsor": "Miyazaki"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 3,
+            "sponsor": "Mishkin"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 4,
+            "sponsor": "Idris"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 5,
+            "sponsor": "Slime"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 6,
+            "sponsor": "The Warden"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 7,
+            "sponsor": "Scarlett"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 8,
+            "sponsor": "Highway Patrol"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 9,
+            "sponsor": "Verney"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 10,
+            "sponsor": "Maxine"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 11,
+            "sponsor": "The Order of the Inferno"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 12,
+            "sponsor": "Beverly, The Devil on the Highway"
+        }
+    },
+    {
+        "model": "SponsorName",
+        "data": {
+            "id": 13,
+            "sponsor": "Rusty's Bootleggers"
         }
     }
 ]

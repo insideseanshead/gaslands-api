@@ -16,7 +16,7 @@ module.exports = function(sequelize, DataTypes) {
         // Store Number of Build Slots
         buildSlots: DataTypes.INTEGER,
         // Store Special Rules
-        buildSlots: DataTypes.TEXT,
+        specialRules: DataTypes.TEXT,
         // Store Total Cost
         totalCost: DataTypes.INTEGER
     });
