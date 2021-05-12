@@ -3,7 +3,7 @@ module.exports = function(sequelize, DataTypes) {
         weapon: DataTypes.STRING,
         range: DataTypes.STRING,
         attackDice: DataTypes.STRING,
-        specialRules: DataTypes.STRING,
+        specialRule: DataTypes.STRING,
         buildSlot: DataTypes.INTEGER,
         cost: DataTypes.INTEGER,
         mishkin: DataTypes.INTEGER
